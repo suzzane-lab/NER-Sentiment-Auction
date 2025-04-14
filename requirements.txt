@@ -1,0 +1,8 @@
+google-cloud-storage
+transformers
+torch
+pandas
+numpy
+scikit-learn
+python-dotenv
+-e .
