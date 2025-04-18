@@ -1,5 +1,3 @@
-from hate.utils.logger import setup_loggin
+from ner.logger import logging
 
-setup_loggin()
-logging.info("Starting the DataTransformation")
-
+logging.info("This is test")

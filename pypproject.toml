@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ner"  # Matches SRC_REPO in setup.py
+version = "0.1.0"  # Ensure this aligns with __version__ in setup.py
+description = "A small python package for App"
+readme = "README.md"
+authors = [{ name = "suzzane-lab", email = "momsryder8@gmail.com" }]
+license = "MIT"
+keywords = ["NER", "Sentiment", "Auction"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License"
+]
+
+[dependencies]
+numpy = ">=1.25.0"
+pandas = ">=2.0.0"
+azure-storage-blob = ">=12.16.0"
+logging = ">=0.5.1.2"
+
+
+
+[project.urls]
+Homepage = "https://github.com/suzzane-lab/NER-Sentiment-Auction"
